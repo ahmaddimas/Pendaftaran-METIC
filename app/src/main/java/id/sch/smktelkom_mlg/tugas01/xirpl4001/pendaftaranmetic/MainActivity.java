@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
             if (cbDG.isChecked()) minat += cbDG.getText() + "\n";
             if (cbJ.isChecked()) minat += cbJ.getText() + "\n";
             if (cbVE.isChecked()) minat += cbVE.getText() + "\n";
-            if (minat.length() == startlen) minat += "Tidak ada pilihan";
+            if (minat.length() == startlen) minat += "Tidak ada pilihan yang dipilih";
 
             hasil.append(minat);
             tvHasil.setText(hasil);
